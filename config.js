@@ -13,12 +13,12 @@ const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.',
 
 const config = {
     // 𝐁𝐎𝐓 𝐈𝐃𝐄𝐍𝐓𝐈𝐓𝐘
-    botName     : process.env.BOT_NAME    || '𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃',
+    botName     : process.env.BOT_NAME    || '𝐓𝐡𝐚𝐫𝐮𝐧',
     botOwner    : process.env.BOT_OWNER   || '𝐓𝐡𝐚𝐫𝐮𝐧 𝐏𝐫𝐚𝐛𝐡𝐚𝐬𝐡𝐰𝐚𝐫𝐚',
     ownerNumber : process.env.OWNER_NUMBER || '',
     author      : process.env.AUTHOR      || '𝐓𝐡𝐚𝐫𝐮𝐧 𝐏𝐫𝐚𝐛𝐡𝐚𝐬𝐡𝐰𝐚𝐫𝐚',
-    packname    : process.env.PACKNAME    || '𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃',
-    description : process.env.DESCRIPTION || '𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃 — High Performance WhatsApp Bot',
+    packname    : process.env.PACKNAME    || '𝐓𝐡𝐚𝐫𝐮𝐧',
+    description : process.env.DESCRIPTION || '𝐓𝐡𝐚𝐫𝐮𝐧 — High Performance WhatsApp Bot',
     version     : '1.0.0',
 
     // 𝐁𝐎𝐓 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐓𝐈𝐎𝐍

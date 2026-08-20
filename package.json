@@ -1,5 +1,19 @@
 {
   "engines": {
     "node": ">=20.0.0"
+  },
+  "name": "subhan-md",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot customized for Tarun's Assistant",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "mongoose": "^9.9.3",
+    "mongodb": "^7.5.0",
+    "cheerio": "^1.2.0",
+    "undici": "^7.29.0"
   }
 }

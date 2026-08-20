@@ -1,9 +1,8 @@
-node-version = "20"
-[phases.setup]
-nixPkgs = ["nodejs-20_x"]
-[phases.install]
-cmds = ["npm install --omit=dev"]
-[phases.build]
-cmds = []
-[start]
-cmd = "node index.js"
+[build]
+builder = "NIXPACKS"
+buildCommand = "npm install"
+
+[deploy]
+startCommand = "npm start"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10

@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: subhan-md
+    name: tharun-md
     env: node
     plan: free
     region: singapore
@@ -12,14 +12,14 @@ services:
       - key: PAIRING_NUMBER
         sync: false
       - key: BOT_NAME
-        value: 𝐒ᴜʙʜᴀɴ-𝐌ᴅ
+        value: 𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃
       - key: BOT_OWNER
-        value: ᴍ sᴜʙʜᴀɴ ᴀʟɪ
+        value: Tharun Prabhashwara
       - key: PREFIXES
         value: .,!,/
       - key: COMMAND_MODE
         value: public
       - key: TIMEZONE
-        value: Asia/Karachi
+        value: Asia/Colombo
       - key: PORT
         value: 5000

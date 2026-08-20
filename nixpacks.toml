@@ -1,2 +1,4 @@
-engines:
-  node: ">=20.0.0"
+providers = ["nodejs"]
+
+[phases.setup]
+nixPkgs = ["nodejs_20"]

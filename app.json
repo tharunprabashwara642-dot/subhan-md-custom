@@ -1,10 +1,10 @@
 {
-  "name": "SUBHAN-MD",
-  "description": "SUBHAN-MD — WhatsApp Multi-Device Bot made in Pakistan by M Subhan Ali",
-  "keywords": ["whatsapp", "bot", "baileys", "multi-device", "nodejs", "pakistan"],
-  "repository": "https://github.com/subhanmdofficial/subhan-md",
-  "logo": "https://raw.githubusercontent.com/subhanmdofficial/subhan-md/main/assets/thumb.png",
-  "website": "https://github.com/subhanmdofficial/subhan-md",
+  "name": "THARUN-MD",
+  "description": "THARUN-MD — WhatsApp Multi-Device Bot made by Tharun Prabhashwara",
+  "keywords": ["whatsapp", "bot", "baileys", "multi-device", "nodejs", "sri-lanka"],
+  "repository": "https://github.com/tharunprabashwara642-dot/subhan-md-custom",
+  "logo": "https://raw.githubusercontent.com/tharunprabashwara642-dot/subhan-md-custom/main/assets/thumb.png",
+  "website": "https://github.com/tharunprabashwara642-dot/subhan-md-custom",
   "success_url": "/",
   "stack": "heroku-22",
   "buildpacks": [
@@ -18,7 +18,7 @@
   },
   "env": {
     "SESSION_ID": {
-      "description": "Your SUBHAN-MD session ID (leave blank to pair with a phone number instead)",
+      "description": "Your THARUN-MD session ID (leave blank to pair with a phone number instead)",
       "value": "",
       "required": false
     },
@@ -29,15 +29,15 @@
     },
     "BOT_NAME": {
       "description": "Display name for the bot",
-      "value": "𝐒ᴜʙʜᴀɴ-𝐌ᴅ"
+      "value": "𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃"
     },
     "BOT_OWNER": {
       "description": "Owner name shown in bot replies",
-      "value": "ᴍ sᴜʙʜᴀɴ ᴀʟɪ"
+      "value": "Tharun Prabhashwara"
     },
     "OWNER_NUMBER": {
       "description": "Your WhatsApp number with country code",
-      "value": "923000000000"
+      "value": "94700000000"
     },
     "PREFIXES": {
       "description": "Comma-separated command prefixes",
@@ -49,7 +49,7 @@
     },
     "TIMEZONE": {
       "description": "Timezone for the bot",
-      "value": "Asia/Karachi"
+      "value": "Asia/Colombo"
     },
     "MONGO_URL": {
       "description": "MongoDB connection string (optional, leave blank for JSON storage)",

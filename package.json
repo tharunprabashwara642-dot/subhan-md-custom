@@ -1,7 +1,7 @@
 {
-  "name": "subhan-md",
+  "name": "tharun-md",
   "version": "1.0.0",
-  "description": "𝐒ᴜʙʜᴀɴ-𝐌ᴅ — High Performance WhatsApp Multi-Device Bot",
+  "description": "𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃 — High Performance WhatsApp Multi-Device Bot",
   "type": "module",
   "main": "index.js",
   "directories": {
@@ -17,22 +17,21 @@
   "keywords": [
     "whatsapp-bot",
     "baileys-bot",
-    "𝐒ᴜʙʜᴀɴ-𝐌ᴅ",
-    "subhan-md",
+    "tharun-md",
     "multi-device",
     "nodejs-bot",
     "javascript-bot"
   ],
-  "homepage": "https://github.com/subhanmdofficial/subhan-md",
+  "homepage": "https://github.com/tharunprabashwara642-dot/subhan-md-custom",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subhanmdofficial/subhan-md"
+    "url": "git+https://github.com/tharunprabashwara642-dot/subhan-md-custom.git"
   },
   "bugs": {
-    "url": "https://github.com/subhanmdofficial/subhan-md/issues"
+    "url": "https://github.com/tharunprabashwara642-dot/subhan-md-custom/issues"
   },
   "license": "MIT",
-  "author": "ᴍ sᴜʙʜᴀɴ ᴀʟɪ",
+  "author": "Tharun Prabhashwara",
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@whiskeysockets/baileys": "^7.0.0-rc13",

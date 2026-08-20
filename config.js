@@ -1,7 +1,7 @@
 /*
  * ╔═══════════════════════════════════════════════════════════════╗
  * ║              𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐌𝐮𝐥𝐭𝐢-𝐃𝐞𝐯𝐢𝐜𝐞 𝐁𝐨𝐭                          ║
- * ║   Owner    : ᴍ sᴜʙʜᴀɴ ᴀʟɪ                                      ║
+ * ║   Owner    : 𝐓𝐡𝐚𝐫𝐮𝐧 𝐏𝐫𝐚𝐛𝐡𝐚𝐬𝐡𝐰𝐚𝐫𝐚                                ║
  * ║   Version  : 1.0.0                                              ║
  * ║   License  : MIT                                                ║
  * ╚═══════════════════════════════════════════════════════════════╝
@@ -13,23 +13,23 @@ const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.',
 
 const config = {
     // 𝐁𝐎𝐓 𝐈𝐃𝐄𝐍𝐓𝐈𝐓𝐘
-    botName     : process.env.BOT_NAME    || '𝐒ᴜʙʜᴀɴ-𝐌ᴅ',
-    botOwner    : process.env.BOT_OWNER   || 'ᴍ sᴜʙʜᴀɴ ᴀʟɪ',
+    botName     : process.env.BOT_NAME    || '𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃',
+    botOwner    : process.env.BOT_OWNER   || '𝐓𝐡𝐚𝐫𝐮𝐧 𝐏𝐫𝐚𝐛𝐡𝐚𝐬𝐡𝐰𝐚𝐫𝐚',
     ownerNumber : process.env.OWNER_NUMBER || '',
-    author      : process.env.AUTHOR      || 'ᴍ sᴜʙʜᴀɴ ᴀʟɪ',
-    packname    : process.env.PACKNAME    || '𝐒ᴜʙʜᴀɴ-𝐌ᴅ',
-    description : process.env.DESCRIPTION || '𝐒ᴜʙʜᴀɴ-𝐌ᴅ — High Performance WhatsApp Bot',
+    author      : process.env.AUTHOR      || '𝐓𝐡𝐚𝐫𝐮𝐧 𝐏𝐫𝐚𝐛𝐡𝐚𝐬𝐡𝐰𝐚𝐫𝐚',
+    packname    : process.env.PACKNAME    || '𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃',
+    description : process.env.DESCRIPTION || '𝐓𝐡𝐚𝐫𝐮𝐧-𝐌𝐃 — High Performance WhatsApp Bot',
     version     : '1.0.0',
 
     // 𝐁𝐎𝐓 𝐂𝐎𝐍𝐅𝐈𝐆𝐔𝐑𝐀𝐓𝐈𝐎𝐍
     prefixes    : _prefixes,
     prefix      : _prefixes[0],
     commandMode : process.env.COMMAND_MODE || 'public',
-    timeZone    : process.env.TIMEZONE     || 'Asia/Karachi',
+    timeZone    : process.env.TIMEZONE     || 'Asia/Colombo',
 
     // 𝐋𝐈𝐍𝐊𝐒 & 𝐔𝐏𝐃𝐀𝐓𝐄𝐒
     channelLink : process.env.CHANNEL_LINK || '',
-    ytChannel   : process.env.YT_CHANNEL   || 'ᴍ sᴜʙʜᴀɴ ᴀʟɪ',
+    ytChannel   : process.env.YT_CHANNEL   || '𝐓𝐡𝐚𝐫𝐮𝐧 𝐏𝐫𝐚𝐛𝐡𝐚𝐬𝐡𝐰𝐚𝐫𝐚',
 
     // 𝐒𝐄𝐒𝐒𝐈𝐎𝐍
     sessionId     : process.env.SESSION_ID     || '',
